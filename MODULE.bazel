@@ -143,3 +143,6 @@ deb(
     urls = ["https://archive.ubuntu.com/ubuntu/pool/main/a/acl/libacl1-dev_2.2.52-3build1_amd64.deb"],
     visibility = ["//visibility:public"],
 )
+
+#docs-as-code
+bazel_dep(name = "score_docs_as_code", version = "1.1.0")
